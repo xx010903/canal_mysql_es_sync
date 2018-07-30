@@ -6,7 +6,7 @@
     <groupId>com.star.sync</groupId>
     <artifactId>canal-mysql-elasticsearch-sync</artifactId>
     <version>1.0.4</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>canal-mysql-elasticsearch-sync</name>
     <description>基于canal的mysql和elasticsearch实时同步方案，支持增量同步和全量同步</description>
