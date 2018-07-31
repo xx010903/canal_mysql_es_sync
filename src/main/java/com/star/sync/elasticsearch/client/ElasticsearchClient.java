@@ -36,7 +36,7 @@ public class ElasticsearchClient implements DisposableBean {
                 .put("cluster.name", clusterName)
                 .put("client.transport.sniff", true)
                 .build();
-        transportClient = new PreBuiltTransportClient(Settings.EMPTY)
+        transportClient = new PreBuiltTransportClient(settings)
                 .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName(host), Integer.valueOf(port)));
         logger.info("elasticsearch transportClient 连接成功");
         return transportClient;
