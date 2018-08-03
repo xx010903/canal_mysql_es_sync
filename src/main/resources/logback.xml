@@ -6,7 +6,7 @@
 		</encoder>
 	</appender>
 	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>../logs/info.log</file>
+		<file>../logs/canal_mysql_elasticsearch_sync/info.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!-- rollover daily -->
 			<fileNamePattern>../logs/canal_mysql_elasticsearch_sync/info.log.%d{yyyy-MM-dd}</fileNamePattern>
